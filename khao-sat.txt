@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Khảo Sát Giới Trẻ - 30/4</title>
+  <style>
+    body {
+      font-family: Verdana, sans-serif;
+      background: #fff8f0;
+      padding: 30px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #cc0000;
+    }
+    form {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    label, textarea, input {
+      display: block;
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    textarea, input[type="text"] {
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background: #cc0000;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #990000;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #fff;
+      padding: 15px 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #a60000;
+      font-weight: 600;
+      padding: 8px 14px;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #ffe6e6;
+    }
+
+  </style>
+</head>
+<nav>
+    <a href="TRANGCHU.html">Trang chủ </a>
+    <a href="gioi-thieu.html">Giới thiệu </a>
+    <a href="cac-khoi-tham-gia.html">Các khối </a>
+    <a href="khao-sat.html">Khảo sát </a>
+
+  </nav>
+
+<body>
+  <h1>Khảo Sát Cảm Nhận Về Ngày 30/4</h1>
+  <form action="#" method="post">
+    <label for="name">Tên của bạn:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="age">Tuổi:</label>
+    <input type="text" id="age" name="age" required>
+
+    <label for="feeling">Bạn cảm nhận thế nào khi cùng toàn dân hướng về ngày lễ trọng đại này của Tổ quốc?</label>
+    <textarea id="feeling" name="feeling" rows="5" required></textarea>
+
+    <label for="learn">Bạn sẽ giới thiệu với bè bạn quốc tế về Đại lễ 30/4 như thế nào?</label>
+    <textarea id="learn" name="learn" rows="4"></textarea>
+
+    <button type="submit">Gửi khảo sát</button>
+  </form>
+</body>
+</html>

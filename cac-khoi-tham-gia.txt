@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Phim Tài Liệu Chiến Tranh Việt Nam</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 20px 10px;
+      background: linear-gradient(90deg, #a60000, #d32f2f);
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+      text-transform: uppercase;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 16px;
+      opacity: 0.9;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #fff;
+      padding: 15px 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #a60000;
+      font-weight: 600;
+      padding: 8px 14px;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #ffe6e6;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    }
+
+    section h2 {
+      color: #a60000;
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    .film-section-title {
+      text-align: center;
+      color: #a60000;
+      font-size: 28px;
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+
+    .film-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 20px 50px;
+    }
+
+    .film-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .film-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    }
+
+    .film-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .film-content {
+      padding: 15px;
+    }
+
+    .film-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #a60000;
+      margin-bottom: 10px;
+    }
+
+    .film-desc {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.6;
+    }
+    body {
+      font-family: Tahoma, sans-serif;
+      background: #e6f2ff;
+      padding: 40px;
+      color: #003366;
+    }
+    h1 {
+      color: #004080;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    ul {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      max-width: 700px;
+      margin: auto;
+    }
+    li {
+      padding: 10px 0;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 50px;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+  </style>
+</head>
+
+<header>
+    <h1>LỄ DIỄU BINH 30/4</h1>
+    <p>Kỷ niệm ngày Giải phóng miền Nam, thống nhất đất nước</p>
+  </header>
+
+  <nav>
+    <a href="TRANGCHU.html">Trang chủ 30/4</a>
+    <a href="gioi-thieu.html">Giới thiệu 30/4</a>
+    <a href="cac-khoi-tham-gia.html">Các khối tham gia</a>
+    <a href="khao-sat.html">Khảo sát giới trẻ</a>
+
+  </nav>
+
+<body>
+  <h1>Danh sách các khối tham gia diễu binh</h1>
+  <ul>
+    <p>Tổng hợp những outfit của một số khối có trong ngày diễu binh Mừng đại lễ 50 năm Giải phóng hoàn toàn Miền Nam thống nhất Đất Nước</p>
+    
+  </ul>
+
+  <div class="gallery">
+    <img src="https://scontent.fhan5-2.fna.fbcdn.net/v/t39.30808-6/492016478_3157885197700478_2506427115269393884_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=vkO87kN9qdYQ7kNvwFaiIee&_nc_oc=AdlGI91Gw3_1CZ8ryy4ytUTHM0zGx_STqmnh3IV4JchQWGoJ0QVzVywKto6l4w0Skcc&_nc_zt=23&_nc_ht=scontent.fhan5-2.fna&_nc_gid=-rvm2D638k7a704vWfKv0g&oh=00_AfEi5EcziP5pOAO_qkmE3q0wVqd5o15ruwDZ-QS9NDKPIA&oe=681053DD" alt="Diễu binh 1">
+    <img src="https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/492244494_3157885354367129_116447804406074859_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=5TQa1HsN3CEQ7kNvwEtoPDy&_nc_oc=AdnIXbyl6J4sk-gC_s0FdvJZDKo4qhSgZt-DwQK9E78Bbd2uUSWDlfsSXK0Uv6wP0y0&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_gid=y1EgAci_UzpNZvitzHP1RA&oh=00_AfEGPG0AeFm4ZDlJP0q49NIWYT2dYl_qKoM9AU9htsNKbQ&oe=68106AA3" alt="Diễu binh 2">
+    <img src="https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/492566146_3157885361033795_5626518137763220130_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=WLo17d-yDqEQ7kNvwFNY4sO&_nc_oc=AdlX9nz3EyVRC4HO0dsWys3Qg_veQmo21zg88dKxcBXQrb0B1xliZpGnwPzIUPVm5i0&_nc_zt=23&_nc_ht=scontent.fhan5-9.fna&_nc_gid=6dD2-soZoDGsnwfwon7xzA&oh=00_AfEHhs-QhRvGatnyhPCvS7DixEJJY-SWImqpbY9pegHs-g&oe=6810433D" alt="Diễu binh 3">
+    <img src="https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/492517377_3157885481033783_7909088246141661892_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Pqe-XSOBF9MQ7kNvwEuEBwc&_nc_oc=AdkVaOUrTr1UirargPo2SV7WAk_OAhL_if4HJtgX7hnWRja47S8S2ZAVPlnH6SF_-KQ&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_gid=YiyMHEUgIv1kPSkOQux6WQ&oh=00_AfGLjKKmiZLe7mcnQ2i-uDUAa9l7UPdAb0m8yPa-P4wUQg&oe=68106B42" alt="Diễu binh 4">
+    <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t39.30808-6/493284166_3157885474367117_1166877494996628007_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=0XFOBR2GLUgQ7kNvwELFYDU&_nc_oc=AdlgM7GOyMehUToZkmnQ76RIMFxmLUlBCTLqYrdKJHosvRFSxC4uIUpI0Uj6HbxIMxY&_nc_zt=23&_nc_ht=scontent.fhan5-6.fna&_nc_gid=wiaAF5Qo47qfbcy6vBtixg&oh=00_AfGGcxtOyb_9fzfR7AJqMQMQO1qZwpomBLEx5M0HqbsrRQ&oe=68103FAA" alt="Diễu binh 1">
+    <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t39.30808-6/492346918_3157885317700466_5838559225384048438_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=qk73DHwPOWkQ7kNvwEnuXpE&_nc_oc=Adl-6zI_BFztp0pi-0F9lTBD8Tc6RZu6e1l8qYdmrgwJ8JjipgQqQNk_ea_3KdmQ0z8&_nc_zt=23&_nc_ht=scontent.fhan5-6.fna&_nc_gid=w1NsztmcDp2r4Fg1RvYTcw&oh=00_AfGtLjH7vFFZrSoAQvkBV7eDH4qjqk1fR1vtVUTdIHpd7Q&oe=68105155" alt="Diễu binh 2">
+    <img src="https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/492612269_3157885324367132_4937472329620524194_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=lxyC-y6Bty8Q7kNvwFXOlKB&_nc_oc=AdmQ5pYq2i7OGbiUwf_sE3bYX1Tuqtp4cse6luwe98HB5dECMEhSGfffCmOeqjv1MOw&_nc_zt=23&_nc_ht=scontent.fhan5-8.fna&_nc_gid=ES73m9kkquQXgkC8-OduPQ&oh=00_AfHz5QPJ8Dy6jy3GS-8Crf9BPeC8y2uV-3R3nWtPo0nScA&oe=6810422F" alt="Diễu binh 3">
+    <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t39.30808-6/492020378_3157885241033807_2852802988071251090_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=PdgSrzRr1wwQ7kNvwFPeelU&_nc_oc=AdkkVxrWjeG3NfzeXND0TgW3aG2bvDckl0g5zJMuP5758ZLtvDycr30OG2vzZ-ak8hY&_nc_zt=23&_nc_ht=scontent.fhan5-6.fna&_nc_gid=Tf0JuG7xSB9EdYAWTAAfqw&oh=00_AfF1tbX-Bra75wDtat4J6hlnEbfrczCVL7Z-SRev_hYOMw&oe=68106B5A" alt="Diễu binh 4">
+    <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t39.30808-6/492537900_3157885204367144_6575722391808776753_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=cSEmaMIrPMwQ7kNvwFU6zkb&_nc_oc=AdlFLK_02yIl_bpdphOrrArL5smul1T2bKwXjSScAiPAFtIsulRvSt18k0C1NYZfW0M&_nc_zt=23&_nc_ht=scontent.fhan5-6.fna&_nc_gid=Ypwi5V7VOhj1hSSg08WqBg&oh=00_AfETc2DEIftT7sJHxsfOqay5pbxzOUW71OgZ5GRPeHNF6w&oe=68106C4D" alt="Diễu binh 1">
+    <img src="https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/492153381_3157885284367136_4355370389968020275_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=S7KE5BaWp6EQ7kNvwEjCPGg&_nc_oc=Adkglto5KApMBUZsjVEc_ArfzuUWKyPpYfW7vzXBr06KdqDeHvHGo2k9Dfldz_a7Jjg&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_gid=MkWVLwHc1XMJFZ7LZduNvA&oh=00_AfFDXVY_0Q8tHTIGbYJrvpceZREsGrfktjEITmzOA-pDGg&oe=681056E7" alt="Diễu binh 2">
+    <img src="https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/492197434_3157885577700440_5259804734736177795_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=DEnT4KI6AFgQ7kNvwHM6mmf&_nc_oc=AdkA__bqBSyHyzzBgRDMbBWqII7hhDBseZ0I3y0mv05I6I-CHlh2s7qeTAdIHIawABg&_nc_zt=23&_nc_ht=scontent.fhan5-8.fna&_nc_gid=T4GpSPmMypngrVhzL4towQ&oh=00_AfF68KaoPJaqYzk-qJC2hdxcF0le23wqhWNn4CxC0qpbAg&oe=68104FC4" alt="Diễu binh 3">
+    <img src="https://scontent.fhan5-2.fna.fbcdn.net/v/t39.30808-6/492198778_3157885587700439_954621529205975580_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=FDiTgkwl4NgQ7kNvwFCVFvF&_nc_oc=AdngKt_ZqIIqvxvIKzcuUKv96bc4gm0AwjyY0KVSyfnwCduTCBIV0sLQQHLigApYsx0&_nc_zt=23&_nc_ht=scontent.fhan5-2.fna&_nc_gid=hN3OujKJtJPQSSiVMG1KQA&oh=00_AfEGh0jUkEFA0Isdtiay6IU_Hof9VXzZvZtAe7nT0h7Aew&oe=68103B1D" alt="Diễu binh 4">
+    <img src="https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/492236298_3157885421033789_8608699313837454147_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=1fGKsjFwajUQ7kNvwG4x24p&_nc_oc=AdmVJvg2qXCGTpxH2_0DCRgNh_C6vrHH0BC9Ig0J71EPD0FwmcnJd1lzKDEi-nca6sg&_nc_zt=23&_nc_ht=scontent.fhan5-8.fna&_nc_gid=S0DA3wO45AMqEnAu6mN0bg&oh=00_AfENv1IfuU8jWPhV_R8qdTxyJ37jBZLsoVBb2oYD5lt1IQ&oe=681065A4" alt="Diễu binh 1">
+    <img src="https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/492505128_3157885521033779_1182106572713404222_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=hImwOa5k6N8Q7kNvwHq9FLC&_nc_oc=AdnMFekrp_OItWfBEdGBVwkKmnv3asvvKePSTCW0La4yav58XMgP-dg21XudH9u2z0k&_nc_zt=23&_nc_ht=scontent.fhan5-8.fna&_nc_gid=NGCOmSAjbIPjlbWbYX4Gvw&oh=00_AfEmyWVnO7BYK8Tk8neiSGZ0eVAi25XbfM34RSDUrvcbUQ&oe=681038B1" alt="Diễu binh 2">
+    <img src="https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/492558074_3157885234367141_1168422391051467585_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tuoz86NU6LwQ7kNvwElmw5G&_nc_oc=AdksIwK0JVJAEgCfdQK3q2mrVYUwU3puxhZUPwdf9iAgt_jnwa7_vcpF9GKaZG_ex-k&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_gid=8l6Qs8c3rxjWP-Ok9HoDlQ&oh=00_AfHrCWEVZJZB3EqLsE76OXpRILqH22mUFw8bx8TfjGgONg&oe=6810600D" alt="Diễu binh 3">
+    <img src="https://scontent.fhan5-11.fna.fbcdn.net/v/t39.30808-6/493597485_3157885431033788_2153214702525326492_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=2-FZjASajJgQ7kNvwE2_YjG&_nc_oc=Adl5n0MxErF1J7mpYfvLG-3upgkXE8jFcfECmk_6Er69Ot2OxSI8KKoIfzLOAO5n6E8&_nc_zt=23&_nc_ht=scontent.fhan5-11.fna&_nc_gid=pk7ukyw7kgiAMc2yy-zozw&oh=00_AfEhlPhRhAKZjURe2ZILm3ydy3UiD3DxWQ4Mf-_9Y_FL2w&oe=68103E40" alt="Diễu binh 4">
+  </div>
+</body>
+</html>

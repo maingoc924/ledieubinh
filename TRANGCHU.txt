@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Lễ Diễu Binh 30/4</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: 
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 100px 20px 60px;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    header h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 4rem;
+      margin-bottom: 10px;
+      color: #ffd700;
+      text-shadow: 2px 2px 8px #000;
+    }
+
+    header p {
+      font-size: 1.5rem;
+      color: #eee;
+      text-shadow: 1px 1px 5px #000;
+    }
+
+    nav {
+      background: rgba(0,0,0,0.85);
+      padding: 15px 0;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+
+    nav a {
+      color: #ffd700;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+      text-shadow: 0 0 5px #ffd700;
+    }
+
+    section {
+      background: rgba(255, 255, 255, 0.1);
+      margin: 40px auto;
+      padding: 40px;
+      max-width: 900px;
+      border-radius: 16px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    section h2 {
+      color: #ffd700;
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+      border-bottom: 2px solid #ffd700;
+      padding-bottom: 10px;
+    }
+
+    section ul li {
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: rgba(0,0,0,0.9);
+      font-size: 0.9rem;
+      margin-top: 50px;
+      color: #aaa;
+    }
+
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <audio autoplay loop>
+    <source src="viet-tiep-cau-chuyen-hoa-binh.mp3" type="audio/mpeg">
+    Trình duyệt của bạn không hỗ trợ phát nhạc nền.
+  </audio>
+
+  <header>
+    <h1>LỄ DIỄU BINH 30/4</h1>
+    <p>Kỷ niệm ngày Giải phóng miền Nam, thống nhất đất nước</p>
+  </header>
+
+  <nav>
+    <a href="TRANGCHU.html">Trang chủ 30/4</a>
+    <a href="gioi-thieu.html">Giới thiệu 30/4</a>
+    <a href="cac-khoi-tham-gia.html">Các khối tham gia</a>
+    <a href="khao-sat.html">Khảo sát giới trẻ</a>
+  </nav>
+
+  <section>
+    <h2>Ý Nghĩa Lịch Sử</h2>
+    <p>
+      Ngày 30/4/1975 đánh dấu mốc son chói lọi trong lịch sử dân tộc Việt Nam – ngày đất nước hoàn toàn thống nhất, mở ra kỷ nguyên độc lập, hòa bình và phát triển. 
+      Lễ diễu binh là dịp để tưởng nhớ công lao các anh hùng liệt sĩ, đồng thời khơi dậy niềm tự hào dân tộc trong mỗi người dân Việt.
+    </p>
+  </section>
+
+  <section>
+    <h2>Thời Gian & Địa Điểm</h2>
+    <p>
+      Lễ diễu binh sẽ được tổ chức vào sáng ngày 30/4 tại Quảng trường Ba Đình, Hà Nội và TP. Hồ Chí Minh với sự tham gia của hàng nghìn cán bộ, chiến sĩ và người dân.
+    </p>
+  </section>
+
+  <section>
+    <h2>Hoạt Động Nổi Bật</h2>
+    <ul>
+      <li>Diễu binh, diễu hành các lực lượng vũ trang</li>
+      <li>Biểu diễn nghệ thuật, văn nghệ truyền thống</li>
+      <li>Triển lãm hình ảnh, tư liệu lịch sử</li>
+      <li>Thắp hương tưởng niệm các anh hùng liệt sĩ</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025 Kỷ niệm 30/4 - Tự hào dân tộc Việt Nam
+  </footer>
+
+</body>
+</html>
+echo "# ledieubinh" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:maingoc924/ledieubinh.git
+git push -u origin main
+
+
+git remote add origin git@github.com:maingoc924/ledieubinh.git
+git branch -M main
+git push -u origin main
